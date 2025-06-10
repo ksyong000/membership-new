@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .membership-root {
-  padding: 24px 20px 0;
+  padding: 24px 1.25rem 0 !important;
   margin-bottom: 48px;
 }
 
