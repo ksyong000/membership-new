@@ -1,0 +1,407 @@
+@charset "UTF-8";
+.membership-root {
+  padding: 0 20px;
+}
+
+.membership-root header h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 58px;
+}
+
+.membership-root header h3 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.membership-root .txt {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 28px;
+}
+.membership-root .ps-btn.arrow-icon {
+  width: initial;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 10px 12px 10px 20px;
+}
+.membership-root .ps-btn.arrow-icon img {
+  width: 12px;
+  height: 12px;
+}
+
+.bottom-box {
+  margin-top: 146px;
+}
+.bottom-box .txt {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--color-60);
+  margin-bottom: 18px;
+}
+.membership-root .bottom-box .ps-btn {
+  height: 54px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+.membership-root .bottom-box .ps-btn + .ps-btn {
+  margin-top: 8px;
+}
+
+/* 팝업 */
+.unitePop .layer-head {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 36px;
+}
+.unitePop .layer-head h4 {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 32px;
+}
+.unitePop .layer-head h3 {
+  font-weight: 600;
+  font-size: 24px;
+}
+.unitePop .ps-bottom-layer-content .inner {
+  padding: 20px 20px 59px;
+}
+
+.unitePop .benefit-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 0;
+  border-top: 1px solid var(--color-30);
+  gap: 12px;
+}
+.unitePop .benefit-list:last-child {
+  border-bottom: 1px solid var(--color-30);
+}
+.unitePop .benefit-list dt {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  width: 114px;
+}
+.unitePop .benefit-list dd {
+  flex: 1;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: right;
+  color: var(--color-70);
+  word-break: keep-all;
+}
+
+/* 회원정보확인 */
+.member-check header {
+  margin-bottom: 36px;
+}
+.member-check header h2 {
+  font-size: 16px;
+}
+.member-check header h3 {
+  font-size: 32px;
+  line-height: 38px;
+}
+.member-check .info-box {
+  margin-bottom: 58px;
+}
+.member-check.result .info-box {
+  margin-bottom: 0;
+}
+.member-check .info-box .result {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 18px;
+  padding-top: 22px;
+}
+.member-check .info-box.not-user {
+  margin-bottom: 42px;
+}
+
+.member-check .info-box .main-txt {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 18px;
+  line-height: 28px;
+}
+.member-check .info-box .main-txt strong {
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+.member-check .info-box .color2 {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 28px;
+  color: #006ec7;
+}
+.member-check .info-box .guide-txt {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--color-70);
+}
+
+.member-check .user-info {
+  margin-bottom: 24px;
+}
+.member-check .user-info.offline {
+  margin-bottom: 42px;
+}
+.member-check .info-list {
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--color-30);
+}
+.member-check .info-list + .info-list {
+  margin-top: 24px;
+}
+
+.member-check .info-list.id .data-label {
+  width: auto;
+}
+
+.member-check .info-list dt {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: var(--color-60);
+  margin-bottom: 12px;
+}
+.member-check .info-list dd {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.member-check .info-list dd + dd {
+  margin-top: 10px;
+}
+.member-check .data-label {
+  width: 39px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 16px;
+}
+.member-check .data-value {
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--color-70);
+}
+
+.member-check .warning-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ca3a59;
+  margin-bottom: 18px;
+}
+
+.member-check .terms-wrap {
+  margin-bottom: 24px;
+}
+.member-check
+  .terms-wrap-box
+  .ps-chkbox
+  > label
+  > input[type="checkbox"]
+  + .text {
+  padding-left: 34px;
+}
+
+.member-check .terms-wrap-box .ps-chkbox.all-chk {
+  width: 100%;
+  border-bottom: 1px solid var(--color-30);
+  padding-bottom: 18px;
+  margin-bottom: 20px;
+}
+.member-check .terms-wrap-box .ps-chkbox.all-chk .text {
+  font-weight: 600;
+  font-size: 16px;
+}
+.member-check .terms-wrap-box .ps-chkbox:not(.all-chk) .text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  color: var(--color-70);
+}
+.member-check .terms-wrap-box .ps-chkbox:not(.all-chk) .text .color1 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #ca3a59;
+}
+.membership-root .member-check .ps-btn.view-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-skip-ink: auto;
+  border-bottom: none;
+  color: var(--color-90);
+}
+.btn-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.membership-root .btn-wrap .ps-btn {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* 인풋 */
+.input-box.line {
+  min-height: 60px;
+  width: 100%;
+  display: flex;
+}
+.input-box.line + .input-box.line {
+  border-top: 1px solid var(--color-30);
+}
+.input-box.line .input-area {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.input-box.line .input-area label {
+  min-width: 55px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+}
+.input-box.line .input-area .ps-input {
+  flex: 1;
+}
+.input-box.line .input-area .ps-input .inp {
+  height: 60px;
+  border: none;
+  padding: 0 26px 0 0;
+}
+.input-box.line .ps-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 42px;
+}
+.input-box.line .ps-chkbox .text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  vertical-align: middle;
+  color: var(--color-50);
+  position: relative;
+}
+.input-box.line
+  .ps-chkbox
+  > label
+  > input[type="radio"]:checked
+  + .text::before {
+  border: 1px solid #ccc;
+}
+.input-box.line
+  .ps-chkbox
+  > label
+  > input[type="radio"]:checked
+  + .text::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: #000;
+  position: absolute;
+  left: 0%;
+  top: 0;
+  transform: translate(4px, 4px);
+  border-radius: 50%;
+  background: #000;
+}
+
+.form-box + .btn-wrap {
+  margin-top: 24px;
+}
+
+/* 회원가입완료 */
+.point-coupone {
+  border-top: 1px solid var(--color-30);
+  border-bottom: 1px solid var(--color-30);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 30px 0;
+  margin-bottom: 24px;
+}
+.point-coupone dl {
+  display: flex;
+  justify-content: space-between;
+}
+.point-coupone dl dt {
+  min-width: 95px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.point-coupone dl dd {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+.guide-box {
+  margin-top: 93px;
+  margin-bottom: 47px;
+}
+.guide-box p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--color-60);
+  margin-bottom: 10px;
+}
+
+.guide-box a {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 22px;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-skip-ink: auto;
+}
