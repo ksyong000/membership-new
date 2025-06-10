@@ -1,0 +1,112 @@
+/* �ㅻ뜑 留덉씠�섏씠吏� 留곹겕 異붽��� margin-left �ㅼ뼱媛��꾨줉 異붽� */
+.ps-header--util > button + button,
+.ps-header--util > a + a,
+.ps-header--util > button + a {
+  margin-left: 30px;
+}
+
+/* .order-layout -> table �띿뒪�� �ш린 誘몄��뺤떆 �꾩옱 0�쇰줈 �ㅼ젙�섏엳�� */
+.order-layout {
+  font-size: medium;
+}
+
+/* Payco 寃곗젣 �꾩씠肄� 媛뺤젣 �띿뒪�� 泥섎━ */
+#paycoText > img {
+  display: none;
+}
+
+#paycoText:after {
+  display: inline-block;
+  content: "";
+  background: url(/front/images/renewal/icon_pay_co.svg) no-repeat;
+  width: 66px;
+  height: 16px;
+  position: relative;
+  top: 2px;
+  /* margin-left: 8px; */
+}
+
+/* �ㅼ씠踰� �섏씠 媛뺤젣 css */
+
+.ps-item-naver {
+  flex: 0 0 200px;
+  margin-left: 4px;
+}
+.ps-item-naver .npay_button_box {
+  padding: 0 !important;
+  border: none !important;
+}
+.ps-item-naver .npay_storebtn_bx {
+  width: 100% !important;
+  height: auto !important;
+}
+.ps-item-naver .npay_button {
+  padding: 0 !important;
+}
+.ps-item-naver .npay_btn_item {
+  display: flex !important;
+  height: 52px !important;
+}
+.ps-item-naver .npay_btn_link.npay_btn_pay {
+  width: 100% !important;
+  flex: 1;
+}
+.ps-item-naver .npay_event {
+  display: none !important;
+}
+.ps-item-naver .npay_btn_link.npay_btn_pay {
+  width: 200px !important;
+  height: 47px !important; /* 20250207 */
+  background: url(https://image.prospecs.com/front/images/renewal/logo_npaybk_large.svg)
+    center no-repeat !important; /* 20250207 */
+  background-size: 60px auto !important; /* 20250207 */
+  border-color: #222 !important; /* 20250207 */
+}
+.ps-item-naver .npay_text {
+  top: 22px !important;
+  background: url(https://image.prospecs.com/front/images/renewal/naverpay_text.png)
+    no-repeat center/contain !important;
+  width: 137px !important;
+  height: 50px !important;
+  display: none !important;
+}
+
+.ps-item-naver .npay_btn_item.btn_width {
+  width: 55px !important;
+  /* display: none !important; */
+}
+
+.ps-item-naver .npay_btn_item.btn_width a {
+  width: 50px !important;
+  height: 50px !important;
+  background-position: 50% 7px !important;
+}
+
+.ps-item-naver .npay_blind {
+  font-size: 16px !important;
+}
+.ps-item-naver .npay_btn_link.btn_green {
+  background-color: #fff !important;
+}
+.ps-item-naver .npay_btn_link {
+  font-size: 0 !important;
+}
+.ps-item-naver .npay_text .npay_naver_logo {
+  display: none !important;
+}
+.ps-item-naver .npay_text .npay_link {
+  display: none !important;
+}
+.ps-item-naver .npay_btn_link.npay_btn_pay .npay_logo {
+  display: none !important;
+}
+.ps-item-naver .npay_event_text {
+  margin-top: 5px !important;
+}
+.ps-item-naver .npay_event_text .event_link,
+.ps-item-naver .npay_event_text strong {
+  font-size: 12px !important;
+}
+.ps-item-naver .npay_event_text strong {
+  margin-right: 5px !important;
+}

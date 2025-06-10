@@ -2,13 +2,20 @@
 .membership-root {
   padding: 0 20px;
   width: 370px;
-  margin: auto;
+  margin: 0 auto 48px;
+}
+
+.membership-root * {
+  letter-spacing: -0.3px;
 }
 
 .membership-root header h2 {
   font-weight: 700;
   font-size: 20px;
-  line-height: 58px;
+}
+
+.membership-root header h3.main-title {
+  margin-top: 18px;
 }
 
 .membership-root header h3 {
@@ -18,6 +25,7 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+  margin-top: 16px;
 }
 
 .membership-root .txt {
@@ -78,7 +86,7 @@
   font-size: 24px;
 }
 .unitePop .ps-bottom-layer-content .inner {
-  padding: 20px 20px 59px;
+  padding: 20px 24px 59px;
 }
 
 .unitePop .benefit-list {
@@ -106,6 +114,7 @@
   text-align: right;
   color: var(--color-70);
   word-break: keep-all;
+  text-align: left;
 }
 
 /* 회원정보확인 */

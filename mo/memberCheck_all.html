@@ -228,21 +228,45 @@
     <script type="text/javascript" src="js/ps_script_mo.js"></script>
   </head>
 
-  <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" class="topSlideY">
+  <body
+    data-aos-easing="ease"
+    data-aos-duration="400"
+    data-aos-delay="0"
+    class="topSlideY"
+  >
     <div id="psWrap" class="ps-wrap ps-new sub">
       <!-- GNB -->
-      <header id="psHeader" class="ps-header flex items-center justify-between px-gutter down top">
+      <header
+        id="psHeader"
+        class="ps-header flex items-center justify-between px-gutter down top"
+      >
         <h1 class="ps-header--logo" style="z-index: 1">
           <a href="/">PROSCPECS</a>
         </h1>
 
         <div class="ps-header--util" style="z-index: 1">
           <input type="hidden" id="cart-cnt" value="0" />
-          <button class="ps-btn ps-icon--search" data-open-layer="commonSearch" id="search">검색</button>
+          <button
+            class="ps-btn ps-icon--search"
+            data-open-layer="commonSearch"
+            id="search"
+          >
+            검색
+          </button>
           <!-- <button class="ps-btn ps-icon--cart" onclick="cfGoToPageForLogin(_PAGE_CART_LIST);">카트</button> -->
 
-          <button class="ps-btn ps-icon--cart" id="cart-icon" data-value="" onclick="cfGoToPage(_PAGE_CART_LIST);">
-            카트<span class="cart-cnt" id="cart-cnt" style="display: none; position: absolute">0</span>
+          <button
+            class="ps-btn ps-icon--cart"
+            id="cart-icon"
+            data-value=""
+            onclick="cfGoToPage(_PAGE_CART_LIST);"
+          >
+            카트<span
+              class="cart-cnt"
+              id="cart-cnt"
+              style="display: none; position: absolute"
+              >0</span
+            >
           </button>
           <button class="ps-btn ps-icon--menu" id="sideMenuClose">메뉴</button>
         </div>
@@ -254,9 +278,25 @@
           </h1>
           <div class="ps-header--util">
             <input type="hidden" id="cart-cnt" value="0" />
-            <button class="ps-btn ps-icon--search" data-open-layer="commonSearch" id="search">검색</button>
-            <button class="ps-btn ps-icon--cart" id="cart-icon" data-value="" onclick="cfGoToPage(_PAGE_CART_LIST);">
-              카트<span class="cart-cnt" id="cart-cnt" style="display: none; position: absolute">0</span>
+            <button
+              class="ps-btn ps-icon--search"
+              data-open-layer="commonSearch"
+              id="search"
+            >
+              검색
+            </button>
+            <button
+              class="ps-btn ps-icon--cart"
+              id="cart-icon"
+              data-value=""
+              onclick="cfGoToPage(_PAGE_CART_LIST);"
+            >
+              카트<span
+                class="cart-cnt"
+                id="cart-cnt"
+                style="display: none; position: absolute"
+                >0</span
+              >
             </button>
             <button class="ps-btn ps-icon--menu ps-icon--close">닫기</button>
           </div>
@@ -264,33 +304,72 @@
         <div class="ps-gnb__nav flex-auto overflow-y-auto">
           <ul class="gnb-main">
             <li>
-              <button data-target="menuShop" class="ps-btn ps-btn--gnb font-eng"><span>SHOES</span></button>
+              <button
+                data-target="menuShop"
+                class="ps-btn ps-btn--gnb font-eng"
+              >
+                <span>SHOES</span>
+              </button>
               <!-- 2Depth -->
               <div id="menuShop" class="ps-gnb-sub__wrap">
                 <div class="ps-gnb-sub__header px-gutter py-5">
                   <button class="ps-btn ps-btn--back font-eng">SHOES</button>
                 </div>
                 <div class="ps-gnb-sub__body flex-auto overflow-y-auto pb-5">
-                  <button onclick="cfGoToPage()" class="ps-btn ps-btn--gnb">신발 전체</button>
-                  <button onclick="cfGoTopage()" class="ps-btn ps-btn--gnb">러닝화</button>
-                  <button onclick="cfGoTopage()" class="ps-btn ps-btn--gnb">워킹화</button>
-                  <button onclick="cfGoTopage()" class="ps-btn ps-btn--gnb">슬립온</button>
-                  <button onclick="cfGoTopage()" class="ps-btn ps-btn--gnb">스포츠화</button>
-                  <button onclick="cfGoTopage()" class="ps-btn ps-btn--gnb">트레킹화</button>
-                  <button onclick="cfGoTopage()" class="ps-btn ps-btn--gnb">스니커즈</button>
-                  <button onclick="cfGoTopage()" class="ps-btn ps-btn--gnb">샌들/슬리퍼</button>
-                  <button onclick="cfGoTopage()" class="ps-btn ps-btn--gnb">인솔</button>
+                  <button onclick="cfGoToPage()" class="ps-btn ps-btn--gnb">
+                    신발 전체
+                  </button>
+                  <button onclick="cfGoTopage()" class="ps-btn ps-btn--gnb">
+                    러닝화
+                  </button>
+                  <button onclick="cfGoTopage()" class="ps-btn ps-btn--gnb">
+                    워킹화
+                  </button>
+                  <button onclick="cfGoTopage()" class="ps-btn ps-btn--gnb">
+                    슬립온
+                  </button>
+                  <button onclick="cfGoTopage()" class="ps-btn ps-btn--gnb">
+                    스포츠화
+                  </button>
+                  <button onclick="cfGoTopage()" class="ps-btn ps-btn--gnb">
+                    트레킹화
+                  </button>
+                  <button onclick="cfGoTopage()" class="ps-btn ps-btn--gnb">
+                    스니커즈
+                  </button>
+                  <button onclick="cfGoTopage()" class="ps-btn ps-btn--gnb">
+                    샌들/슬리퍼
+                  </button>
+                  <button onclick="cfGoTopage()" class="ps-btn ps-btn--gnb">
+                    인솔
+                  </button>
 
-                  <button class="ps-btn ps-btn--gnb font-eng font-bold mt-98" onclick="cfGoToPage(_PAGE_BEST); return false;">Feautured</button>
-                  <button class="ps-btn ps-btn--gnb font-kor">한국타이어콜라보레이션</button>
-                  <button class="ps-btn ps-btn--gnb font-kor">온라인단독</button>
-                  <button class="ps-btn ps-btn--gnb font-kor">7만원대 이하 상품</button>
+                  <button
+                    class="ps-btn ps-btn--gnb font-eng font-bold mt-98"
+                    onclick="cfGoToPage(_PAGE_BEST); return false;"
+                  >
+                    Feautured
+                  </button>
+                  <button class="ps-btn ps-btn--gnb font-kor">
+                    한국타이어콜라보레이션
+                  </button>
+                  <button class="ps-btn ps-btn--gnb font-kor">
+                    온라인단독
+                  </button>
+                  <button class="ps-btn ps-btn--gnb font-kor">
+                    7만원대 이하 상품
+                  </button>
                 </div>
               </div>
               <!--// 2Depth -->
             </li>
             <li>
-              <button data-target="menuShop1" class="ps-btn ps-btn--gnb font-eng"><span>MEN</span></button>
+              <button
+                data-target="menuShop1"
+                class="ps-btn ps-btn--gnb font-eng"
+              >
+                <span>MEN</span>
+              </button>
               <!-- 2Depth -->
               <div id="menuShop1" class="ps-gnb-sub__wrap">
                 <div class="ps-gnb-sub__header px-gutter py-5">
@@ -298,7 +377,9 @@
                 </div>
                 <div class="ps-gnb-sub__body flex-auto overflow-y-auto pb-5">
                   <div class="ps-gnb-sub__toggle">
-                    <button class="ps-btn ps-btn--gnb btn-arr">신발<i></i></button>
+                    <button class="ps-btn ps-btn--gnb btn-arr">
+                      신발<i></i>
+                    </button>
                     <div class="ps-toggle__list">
                       <ul>
                         <li><a href="javascript:;">신발 전체</a></li>
@@ -314,7 +395,9 @@
                     </div>
                   </div>
                   <div class="ps-gnb-sub__toggle">
-                    <button class="ps-btn ps-btn--gnb btn-arr">의류<i></i></button>
+                    <button class="ps-btn ps-btn--gnb btn-arr">
+                      의류<i></i>
+                    </button>
                     <div class="ps-toggle__list">
                       <ul>
                         <li><a href="javascript:;">의류 전체</a></li>
@@ -324,7 +407,9 @@
                         <li><a href="javascript:;">맨투맨 & 후디</a></li>
                         <li><a href="javascript:;">긴팔 티셔츠</a></li>
                         <li><a href="javascript:;">반팔 티셔츠</a></li>
-                        <li><a href="javascript:;">베이스레이어 & 컴프레이션</a></li>
+                        <li>
+                          <a href="javascript:;">베이스레이어 & 컴프레이션</a>
+                        </li>
                         <li><a href="javascript:;">팬츠</a></li>
                         <li><a href="javascript:;">숏팬츠</a></li>
                         <li><a href="javascript:;">레깅스</a></li>
@@ -332,7 +417,9 @@
                     </div>
                   </div>
                   <div class="ps-gnb-sub__toggle">
-                    <button class="ps-btn ps-btn--gnb btn-arr">용품<i></i></button>
+                    <button class="ps-btn ps-btn--gnb btn-arr">
+                      용품<i></i>
+                    </button>
                     <div class="ps-toggle__list">
                       <ul>
                         <li><a href="javascript:;">용품 전체</a></li>
@@ -352,7 +439,12 @@
               <!--// 2Depth -->
             </li>
             <li>
-              <button data-target="menuShop2" class="ps-btn ps-btn--gnb font-eng"><span>WOMEN</span></button>
+              <button
+                data-target="menuShop2"
+                class="ps-btn ps-btn--gnb font-eng"
+              >
+                <span>WOMEN</span>
+              </button>
               <!-- 2Depth -->
               <div id="menuShop2" class="ps-gnb-sub__wrap">
                 <div class="ps-gnb-sub__header px-gutter py-5">
@@ -360,7 +452,9 @@
                 </div>
                 <div class="ps-gnb-sub__body flex-auto overflow-y-auto pb-5">
                   <div class="ps-gnb-sub__toggle">
-                    <button class="ps-btn ps-btn--gnb btn-arr">신발<i></i></button>
+                    <button class="ps-btn ps-btn--gnb btn-arr">
+                      신발<i></i>
+                    </button>
                     <div class="ps-toggle__list">
                       <ul>
                         <li><a href="javascript:;">신발 전체</a></li>
@@ -376,7 +470,9 @@
                     </div>
                   </div>
                   <div class="ps-gnb-sub__toggle">
-                    <button class="ps-btn ps-btn--gnb btn-arr">의류<i></i></button>
+                    <button class="ps-btn ps-btn--gnb btn-arr">
+                      의류<i></i>
+                    </button>
                     <div class="ps-toggle__list">
                       <ul>
                         <li><a href="javascript:;">의류 전체</a></li>
@@ -386,7 +482,9 @@
                         <li><a href="javascript:;">맨투맨 & 후디</a></li>
                         <li><a href="javascript:;">긴팔 티셔츠</a></li>
                         <li><a href="javascript:;">반팔 티셔츠</a></li>
-                        <li><a href="javascript:;">베이스레이어 & 컴프레이션</a></li>
+                        <li>
+                          <a href="javascript:;">베이스레이어 & 컴프레이션</a>
+                        </li>
                         <li><a href="javascript:;">팬츠</a></li>
                         <li><a href="javascript:;">숏팬츠</a></li>
                         <li><a href="javascript:;">레깅스</a></li>
@@ -394,7 +492,9 @@
                     </div>
                   </div>
                   <div class="ps-gnb-sub__toggle">
-                    <button class="ps-btn ps-btn--gnb btn-arr">용품<i></i></button>
+                    <button class="ps-btn ps-btn--gnb btn-arr">
+                      용품<i></i>
+                    </button>
                     <div class="ps-toggle__list">
                       <ul>
                         <li><a href="javascript:;">용품 전체</a></li>
@@ -414,7 +514,12 @@
               <!--// 2Depth -->
             </li>
             <li>
-              <button data-target="menuShop3" class="ps-btn ps-btn--gnb font-eng"><span>KIDS</span></button>
+              <button
+                data-target="menuShop3"
+                class="ps-btn ps-btn--gnb font-eng"
+              >
+                <span>KIDS</span>
+              </button>
               <!-- 2Depth -->
               <div id="menuShop3" class="ps-gnb-sub__wrap">
                 <div class="ps-gnb-sub__header px-gutter py-5">
@@ -422,7 +527,9 @@
                 </div>
                 <div class="ps-gnb-sub__body flex-auto overflow-y-auto pb-5">
                   <div class="ps-gnb-sub__toggle">
-                    <button class="ps-btn ps-btn--gnb btn-arr">신발<i></i></button>
+                    <button class="ps-btn ps-btn--gnb btn-arr">
+                      신발<i></i>
+                    </button>
                     <div class="ps-toggle__list">
                       <ul>
                         <li><a href="javascript:;">신발 전체</a></li>
@@ -438,7 +545,9 @@
                     </div>
                   </div>
                   <div class="ps-gnb-sub__toggle">
-                    <button class="ps-btn ps-btn--gnb btn-arr">의류<i></i></button>
+                    <button class="ps-btn ps-btn--gnb btn-arr">
+                      의류<i></i>
+                    </button>
                     <div class="ps-toggle__list">
                       <ul>
                         <li><a href="javascript:;">의류 전체</a></li>
@@ -448,7 +557,9 @@
                         <li><a href="javascript:;">맨투맨 & 후디</a></li>
                         <li><a href="javascript:;">긴팔 티셔츠</a></li>
                         <li><a href="javascript:;">반팔 티셔츠</a></li>
-                        <li><a href="javascript:;">베이스레이어 & 컴프레이션</a></li>
+                        <li>
+                          <a href="javascript:;">베이스레이어 & 컴프레이션</a>
+                        </li>
                         <li><a href="javascript:;">팬츠</a></li>
                         <li><a href="javascript:;">숏팬츠</a></li>
                         <li><a href="javascript:;">레깅스</a></li>
@@ -456,7 +567,9 @@
                     </div>
                   </div>
                   <div class="ps-gnb-sub__toggle">
-                    <button class="ps-btn ps-btn--gnb btn-arr">용품<i></i></button>
+                    <button class="ps-btn ps-btn--gnb btn-arr">
+                      용품<i></i>
+                    </button>
                     <div class="ps-toggle__list">
                       <ul>
                         <li><a href="javascript:;">용품 전체</a></li>
@@ -476,7 +589,12 @@
               <!--// 2Depth -->
             </li>
             <li>
-              <button data-target="menuShop4" class="ps-btn ps-btn--gnb font-eng"><span>SPORTS</span></button>
+              <button
+                data-target="menuShop4"
+                class="ps-btn ps-btn--gnb font-eng"
+              >
+                <span>SPORTS</span>
+              </button>
               <!-- 2Depth -->
               <div id="menuShop4" class="ps-gnb-sub__wrap">
                 <div class="ps-gnb-sub__header px-gutter py-5">
@@ -484,7 +602,9 @@
                 </div>
                 <div class="ps-gnb-sub__body flex-auto overflow-y-auto pb-5">
                   <div class="ps-gnb-sub__toggle">
-                    <button class="ps-btn ps-btn--gnb btn-arr">유니폼 & 팀패키지<i></i></button>
+                    <button class="ps-btn ps-btn--gnb btn-arr">
+                      유니폼 & 팀패키지<i></i>
+                    </button>
                     <div class="ps-toggle__list">
                       <ul>
                         <li><a href="javascript:;">LG트윈스</a></li>
@@ -498,7 +618,9 @@
                     </div>
                   </div>
                   <div class="ps-gnb-sub__toggle">
-                    <button class="ps-btn ps-btn--gnb btn-arr">경기화<i></i></button>
+                    <button class="ps-btn ps-btn--gnb btn-arr">
+                      경기화<i></i>
+                    </button>
                     <div class="ps-toggle__list">
                       <ul>
                         <li><a href="javascript:;">야구</a></li>
@@ -508,7 +630,9 @@
                     </div>
                   </div>
                   <div class="ps-gnb-sub__toggle">
-                    <button class="ps-btn ps-btn--gnb btn-arr">전문용품<i></i></button>
+                    <button class="ps-btn ps-btn--gnb btn-arr">
+                      전문용품<i></i>
+                    </button>
                     <div class="ps-toggle__list">
                       <ul>
                         <li><a href="javascript:;">야구</a></li>
@@ -517,7 +641,9 @@
                     </div>
                   </div>
                   <div class="ps-gnb-sub__toggle">
-                    <button class="ps-btn ps-btn--gnb btn-arr">커스텀 유니폼<i></i></button>
+                    <button class="ps-btn ps-btn--gnb btn-arr">
+                      커스텀 유니폼<i></i>
+                    </button>
                     <div class="ps-toggle__list">
                       <ul>
                         <li><a href="javascript:;">야구</a></li>
@@ -527,13 +653,20 @@
                       </ul>
                     </div>
                   </div>
-                  <button class="ps-btn ps-btn--gnb mt-60">SPONSORSHIP<i></i></button>
+                  <button class="ps-btn ps-btn--gnb mt-60">
+                    SPONSORSHIP<i></i>
+                  </button>
                 </div>
               </div>
               <!--// 2Depth -->
             </li>
             <li>
-              <button data-target="menuShop5" class="ps-btn ps-btn--gnb font-eng"><span>SALE</span></button>
+              <button
+                data-target="menuShop5"
+                class="ps-btn ps-btn--gnb font-eng"
+              >
+                <span>SALE</span>
+              </button>
               <!-- 2Depth -->
               <div id="menuShop5" class="ps-gnb-sub__wrap">
                 <div class="ps-gnb-sub__header px-gutter py-5">
@@ -541,7 +674,9 @@
                 </div>
                 <div class="ps-gnb-sub__body flex-auto overflow-y-auto pb-5">
                   <div class="ps-gnb-sub__toggle">
-                    <button class="ps-btn ps-btn--gnb btn-arr">SHOES<i></i></button>
+                    <button class="ps-btn ps-btn--gnb btn-arr">
+                      SHOES<i></i>
+                    </button>
                     <div class="ps-toggle__list">
                       <ul>
                         <li><a href="javascript:;">신발 전체</a></li>
@@ -557,7 +692,9 @@
                     </div>
                   </div>
                   <div class="ps-gnb-sub__toggle">
-                    <button class="ps-btn ps-btn--gnb btn-arr">MEN<i></i></button>
+                    <button class="ps-btn ps-btn--gnb btn-arr">
+                      MEN<i></i>
+                    </button>
                     <div class="ps-toggle__list">
                       <ul>
                         <li><a href="javascript:;">신발</a></li>
@@ -568,7 +705,9 @@
                     </div>
                   </div>
                   <div class="ps-gnb-sub__toggle">
-                    <button class="ps-btn ps-btn--gnb btn-arr">WOMEN<i></i></button>
+                    <button class="ps-btn ps-btn--gnb btn-arr">
+                      WOMEN<i></i>
+                    </button>
                     <div class="ps-toggle__list">
                       <ul>
                         <li><a href="javascript:;">신발</a></li>
@@ -579,7 +718,9 @@
                     </div>
                   </div>
                   <div class="ps-gnb-sub__toggle">
-                    <button class="ps-btn ps-btn--gnb btn-arr">KIDS<i></i></button>
+                    <button class="ps-btn ps-btn--gnb btn-arr">
+                      KIDS<i></i>
+                    </button>
                     <div class="ps-toggle__list">
                       <ul>
                         <li><a href="javascript:;">신발</a></li>
@@ -594,25 +735,55 @@
               <!--// 2Depth -->
             </li>
             <li>
-              <button data-target="menuShop6" class="ps-btn ps-btn--gnb font-eng"><span>ONE SPEC</span></button>
+              <button
+                data-target="menuShop6"
+                class="ps-btn ps-btn--gnb font-eng"
+              >
+                <span>ONE SPEC</span>
+              </button>
             </li>
           </ul>
           <div class="ps-gnb__footer flex-none px-gutter pt-5 pb-10">
             <ol class="gnb-footer-menu mb-11">
               <li>
-                <a href="javascript:;" class="font-eng" onclick="cfGoToPage(_PAGE_PROSPECS_LOOKBOOK); return false;">EVENT</a>
+                <a
+                  href="javascript:;"
+                  class="font-eng"
+                  onclick="cfGoToPage(_PAGE_PROSPECS_LOOKBOOK); return false;"
+                  >EVENT</a
+                >
               </li>
               <li>
-                <a href="javascript:;" class="font-eng" onclick="cfGoToPage(_PAGE_STORE_INFO); return false;">ABOUT PRO-SPECS</a>
+                <a
+                  href="javascript:;"
+                  class="font-eng"
+                  onclick="cfGoToPage(_PAGE_STORE_INFO); return false;"
+                  >ABOUT PRO-SPECS</a
+                >
               </li>
               <li>
-                <a href="javascript:;" class="font-eng" onclick="cfGoToPage(_PAGE_GIFT_CARD); return false;">GIFT CARD</a>
+                <a
+                  href="javascript:;"
+                  class="font-eng"
+                  onclick="cfGoToPage(_PAGE_GIFT_CARD); return false;"
+                  >GIFT CARD</a
+                >
               </li>
               <li>
-                <a href="javascript:;" class="font-kor" onclick="cfGoToPage(_PAGE_CALLCENTER); return false;">매장안내</a>
+                <a
+                  href="javascript:;"
+                  class="font-kor"
+                  onclick="cfGoToPage(_PAGE_CALLCENTER); return false;"
+                  >매장안내</a
+                >
               </li>
               <li>
-                <a href="javascript:;" class="font-kor" onclick="cfGoToPage(_PAGE_CALLCENTER); return false;">공지사항</a>
+                <a
+                  href="javascript:;"
+                  class="font-kor"
+                  onclick="cfGoToPage(_PAGE_CALLCENTER); return false;"
+                  >공지사항</a
+                >
               </li>
             </ol>
           </div>
@@ -620,8 +791,18 @@
 
         <div class="ps-gnb__footer flex-none px-gutter pt-5 pb-10">
           <div class="gnb-footer-user">
-            <a href="javascript:;" class="log-in" onclick="cfGoToPage(_PAGE_LOGIN); return false;">로그인</a>
-            <a href="javascript:;" class="join" onclick="cfGoToPage(_PAGE_MEMBER_SIGNUP); return false;">회원가입</a>
+            <a
+              href="javascript:;"
+              class="log-in"
+              onclick="cfGoToPage(_PAGE_LOGIN); return false;"
+              >로그인</a
+            >
+            <a
+              href="javascript:;"
+              class="join"
+              onclick="cfGoToPage(_PAGE_MEMBER_SIGNUP); return false;"
+              >회원가입</a
+            >
           </div>
         </div>
       </div>
@@ -642,7 +823,8 @@
             <div class="info-box">
               <p class="main-txt">
                 <strong>박미리내</strong> 고객님은<br />
-                프로스펙스닷컴 / 프로-스펙스 오프라인 멤버십 모두 가입하신 회원입니다.
+                프로스펙스닷컴 / 프로-스펙스 오프라인 멤버십 모두 가입하신
+                회원입니다.
               </p>
               <span class="guide-txt"
                 >아래의 개인정보를 확인하시고,<br />
@@ -671,51 +853,112 @@
                 </dd>
               </dl>
             </div>
-            <p class="warning-text">통합회원 등록 이후에는 원상복구가 불가합니다<br />통합회원 등록 이후 회원 탈퇴 시 온라인, 오프라인 회원 정보 모두 탈퇴 처리됩니다</p>
+            <p class="warning-text">
+              통합회원 등록 이후에는 원상복구가 불가합니다<br />통합회원 등록
+              이후 회원 탈퇴 시 온라인, 오프라인 회원 정보 모두 탈퇴 처리됩니다
+            </p>
 
             <div class="terms-wrap-box">
               <div class="terms-wrap">
                 <div class="ps-chkbox all-chk">
                   <label for="CHK_ALL">
-                    <input type="checkbox" name="" id="CHK_ALL" />
+                    <input
+                      type="checkbox"
+                      name="membershipAgree"
+                      id="CHK_ALL"
+                    />
                     <span class="text">전체동의</span>
                   </label>
                 </div>
                 <ul class="ps-list type3 terms-list">
                   <li class="flex items-center justify-between">
                     <div class="ps-chkbox ps-terms-chk">
-                      <label for="" class="">
-                        <input type="checkbox" name="" id="" value="" />
-                        <span class="text">통합멤버십 및 약관 동의<span class="color1">(필수)</span></span>
+                      <label for="chk01" class="">
+                        <input
+                          type="checkbox"
+                          name="membershipAgree"
+                          id="chk01"
+                          value=""
+                        />
+                        <span class="text"
+                          >통합멤버십 및 약관 동의<span class="color1"
+                            >(필수)</span
+                          ></span
+                        >
                       </label>
                     </div>
-                    <a href="javascript:void(0)" class="ps-btn view-text">약관보기</a>
+                    <a href="javascript:void(0)" class="ps-btn view-text"
+                      >약관보기</a
+                    >
                   </li>
                   <li class="flex items-center justify-between">
                     <div class="ps-chkbox ps-terms-chk">
-                      <label for="" class="">
-                        <input type="checkbox" name="" id="" value="" />
-                        <span class="text">E-mail 광고성 정보 수신동의 (선택)</span>
+                      <label for="chk02" class="">
+                        <input
+                          type="checkbox"
+                          name="membershipAgree"
+                          id="chk02"
+                          value=""
+                        />
+                        <span class="text"
+                          >E-mail 광고성 정보 수신동의 (선택)</span
+                        >
                       </label>
                     </div>
                   </li>
                   <li class="flex items-center justify-between">
                     <div class="ps-chkbox ps-terms-chk">
-                      <label for="" class="">
-                        <input type="checkbox" name="" id="" value="" />
-                        <span class="text">SMS 광고성 정보 수신동의 (선택)</span>
+                      <label for="chk03" class="">
+                        <input
+                          type="checkbox"
+                          name="membershipAgree"
+                          id="chk03"
+                          value=""
+                        />
+                        <span class="text"
+                          >SMS 광고성 정보 수신동의 (선택)</span
+                        >
                       </label>
                     </div>
                   </li>
                 </ul>
               </div>
               <div class="btn-wrap">
-                <a href="javascript:void(0);" class="ps-btn type10"">회원정보 통합하기</a>
+                <a href="javascript:void(0);" class="ps-btn type10"
+                  >회원정보 통합하기</a
+                >
               </div>
             </div>
           </div>
         </div>
       </main>
+      <script>
+        $(document).ready(function () {
+          // 전체동의 체크박스 클릭 시
+          $("#CHK_ALL").on("change", function () {
+            const isChecked = $(this).is(":checked");
+            $('input[type="checkbox"][name="membershipAgree"]').prop(
+              "checked",
+              isChecked
+            );
+          });
+
+          // 개별 체크박스 변경 시 전체동의 체크박스 상태 업데이트
+          $('input[type="checkbox"][name="membershipAgree"]').on(
+            "change",
+            function () {
+              const total = $(
+                'input[type="checkbox"][name="membershipAgree"]'
+              ).length;
+              const checked = $(
+                'input[type="checkbox"][name="membershipAgree"]:checked'
+              ).length;
+
+              $("#CHK_ALL").prop("checked", total === checked);
+            }
+          );
+        });
+      </script>
       <!--// contents e -->
 
       <!-- 이벤트 팝업 인클루드 -->
@@ -736,7 +979,13 @@
         function jfSetCookieEvent(name, value, expiredays) {
           var todayDate = new Date();
           todayDate.setDate(todayDate.getDate() + expiredays);
-          document.cookie = name + "=" + escape(value) + "; path=/; expires=" + todayDate.toGMTString() + ";";
+          document.cookie =
+            name +
+            "=" +
+            escape(value) +
+            "; path=/; expires=" +
+            todayDate.toGMTString() +
+            ";";
         }
       </script>
 
@@ -807,7 +1056,8 @@
           while (x <= document.cookie.length) {
             var y = x + nameOfCookie.length;
             if (document.cookie.substring(x, y) == nameOfCookie) {
-              if ((endOfCookie = document.cookie.indexOf(";", y)) == -1) endOfCookie = document.cookie.length;
+              if ((endOfCookie = document.cookie.indexOf(";", y)) == -1)
+                endOfCookie = document.cookie.length;
               return unescape(document.cookie.substring(y, endOfCookie));
             }
             x = document.cookie.indexOf(" ", x) + 1;
@@ -821,7 +1071,8 @@
       <!-- 이벤트팝업 인클루드 -->
 
       <script type="text/javascript">
-        var keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+        var keyStr =
+          "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
 
         function decode64(input) {
           var output = "";
@@ -862,10 +1113,19 @@
         var google_remarketing_only = true;
         /* ]]> */
       </script>
-      <script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js"></script>
+      <script
+        type="text/javascript"
+        src="http://www.googleadservices.com/pagead/conversion.js"
+      ></script>
       <noscript>
         <div style="display: inline">
-          <img height="1" width="1" style="border-style: none" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/857987392/?guid=ON&amp;script=0" />
+          <img
+            height="1"
+            width="1"
+            style="border-style: none"
+            alt=""
+            src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/857987392/?guid=ON&amp;script=0"
+          />
         </div>
       </noscript>
 
@@ -890,19 +1150,34 @@
           };
         });
       </script>
-      <script type="text/javascript" async="" src="http://cdn-aitg.widerplanet.com/js/wp_astg_4.0.js"></script>
+      <script
+        type="text/javascript"
+        async=""
+        src="http://cdn-aitg.widerplanet.com/js/wp_astg_4.0.js"
+      ></script>
       <!-- // WIDERPLANET  SCRIPT END 2017.3.14 -->
 
       <!-- Meta Pixel Code -->
 
       <noscript>
-        <img height="1" width="1" style="display: none" src="https://www.facebook.com/tr?id=558140046139294&ev=PageView&noscript=1" />
+        <img
+          height="1"
+          width="1"
+          style="display: none"
+          src="https://www.facebook.com/tr?id=558140046139294&ev=PageView&noscript=1"
+        />
       </noscript>
       <!-- End Meta Pixel Code -->
 
       <!-- Meta Pixel Code by awmr-->
 
-      <noscript><img height="1" width="1" style="display: none" src="https://www.facebook.com/tr?id=524954549782498&ev=PageView&noscript=1" /></noscript>
+      <noscript
+        ><img
+          height="1"
+          width="1"
+          style="display: none"
+          src="https://www.facebook.com/tr?id=524954549782498&ev=PageView&noscript=1"
+      /></noscript>
       <!-- End Meta Pixel Code -->
 
       <!-- Start DDN 리타게팅 -->
@@ -912,15 +1187,34 @@
           tag_label: "FGtAYbT-Q-GxUI4X7_vIcA",
         };
       </script>
-      <script type="text/javascript" src="http://adimg.daumcdn.net/rt/roosevelt.js" async=""></script>
+      <script
+        type="text/javascript"
+        src="http://adimg.daumcdn.net/rt/roosevelt.js"
+        async=""
+      ></script>
 
       <!-- End DDN 리타게팅 -->
 
-      <script type="text/javascript" src="http://image.prospecs.com/mobile/ux/js/lsnmob.ui.common.js?ver=20220330_001"></script>
-      <script type="text/javascript" src="http://image.prospecs.com/mobile/ux/js/lsnmob-common.js?ver=20220228_002"></script>
-      <script type="text/javascript" src="http://image.prospecs.com/mobile/ux/js/lsnmob-link.js?ver=20240424224"></script>
-      <script type="text/javascript" src="http://image.prospecs.com/mobile/ux/js/ngjf-common.js?ver=20220222_002"></script>
-      <script type="text/javascript" src="http://image.prospecs.com/mobile/ux/js/ngjf-submit.js?ver=20220222_002"></script>
+      <script
+        type="text/javascript"
+        src="http://image.prospecs.com/mobile/ux/js/lsnmob.ui.common.js?ver=20220330_001"
+      ></script>
+      <script
+        type="text/javascript"
+        src="http://image.prospecs.com/mobile/ux/js/lsnmob-common.js?ver=20220228_002"
+      ></script>
+      <script
+        type="text/javascript"
+        src="http://image.prospecs.com/mobile/ux/js/lsnmob-link.js?ver=20240424224"
+      ></script>
+      <script
+        type="text/javascript"
+        src="http://image.prospecs.com/mobile/ux/js/ngjf-common.js?ver=20220222_002"
+      ></script>
+      <script
+        type="text/javascript"
+        src="http://image.prospecs.com/mobile/ux/js/ngjf-submit.js?ver=20220222_002"
+      ></script>
 
       <!-- AceCounter kakaostyle Mobile WebSite Gathering Script V.2.0.20190705 -->
       <script type="text/javascript">
@@ -946,134 +1240,6 @@
           w.__baclient__.load(a);
         })(window, document, "//ba.beusable.net/script/ba/9db24222e3");
       </script>
-
-     <!-- footer -->
-     <footer class="ps-footer px-gutter">
-      <div class="footer-menus">
-        <ul>
-          <li>
-            <a
-              href="javascript:void(0);"
-              class="font-bold policy mr-10"
-              onclick="cfGoToPage(_PAGE_PRIVACY_POLICY);"
-              >개인정보처리방침</a
-            >
-          </li>
-          <li>
-            <a
-              href="javascript:void(0);"
-              onclick="cfGoToPage(_PAGE_USE_TERMS);"
-              >이용약관</a
-            >
-          </li>
-          <li><a href="javascript:;">공지사항</a></li>
-          <li><a href="javascript:;">매장안내</a></li>
-          <li><a href="javascript:;">A/S안내</a></li>
-          <li><a href="javascript:;">고객센터</a></li>
-        </ul>
-        <ul>
-          <li><a href="javascript:;">이벤트</a></li>
-          <li><a href="javascript:;">ABOUT PRO-SPECS</a></li>
-          <li><a href="javascript:;">APP 다운로드</a></li>
-          <li><a href="javascript:;">기프트카드</a></li>
-        </ul>
-      </div>
-      <div class="footer-toggle-menus">
-        <ul>
-          <li>
-            <button type="button">
-              (주)LS네트웍스 사업자정보<span></span>
-            </button>
-            <div class="toggle-content">
-              <p>
-                대표이사 : 문성준<br />
-                경상남도 김해시 호계로 428, 1층(부원동)<br />
-                개인정보관리 책임자 : 예재승<br />
-                통신판매업신고번호 : 2016-경남김해-0229<br />
-                사업자등록번호 : 622-81-04805
-              </p>
-              <a
-                href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=6228104805"
-                class="font-bold underline"
-                target="_blank"
-                >사업자정보확인</a
-              >
-              <p>마케팅/제휴 문의<span>prospecs.brand@gmail.com</span></p>
-            </div>
-          </li>
-          <li>
-            <button type="button">SGI서울보증안내<span></span></button>
-            <div class="toggle-content">
-              <p>
-                고객님께서 안전거래를 위해 현금 등으로 결제하신 경우, 저희
-                쇼핑몰 에서 가입한 소비자피해보상보험 서비스를 이용하실 수
-                있습니다.
-              </p>
-              <a
-                href="https://mall.sgic.co.kr/csh/iutf/sh/shop/CSHINFO004VM0.mvc?tm=3&amp;q_sk=2&amp;q_sv=6228104805"
-                class="font-bold underline"
-                >서비스 가입 사실 확인</a
-              >
-            </div>
-          </li>
-          <li class="family">
-            <button type="button">FAMILY SITE<span></span></button>
-            <div class="toggle-content">
-              <ul>
-                <li><a href="javascript:;">Original Sports</a></li>
-                <li><a href="javascript:;">MONT-BELL</a></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-ps-info-service">
-        <p>구매 / 배송 문의<span>080-710-1020</span></p>
-        <p>상품정보 / AS문의<span>080-023-1020</span></p>
-        <p>MON - FRI 09 : 00 - 18:00 | BREAK TIME : 12:30 - 13:30</p>
-      </div>
-      <div class="flex items-center justify-between"></div>
-
-      <p class="copyright" style="padding-top: 0rem">
-        COPYRIGHT© LS NETWORKS CO. ALL RIGHTS RESERVED.
-      </p>
-      <script>
-        //푸터 메뉴 제어
-        $(".footer-toggle-menus button").each(function (idx, item) {
-          $(item).click(function () {
-            $(this).next().slideToggle(300);
-            $(this).toggleClass("on");
-          });
-        });
-
-        //상품 컬러칩변경
-        $(".color-chips li").each(function (idx, ele) {
-          var color = $(ele).find("a").css("background-color");
-          var parents = $(this).closest(".ps-col");
-          var img = parents.find("img");
-          var imgs = ["@thumb_02.jpg", "@thumb_02_2.png", "@thumb_02_3.png"];
-
-          if ($(ele).hasClass("over")) {
-            $(this).css("border-color", color);
-          }
-          $(ele)
-            .children("a")
-            .on({
-              click: function () {
-                var thisIdx = $(this).parent().index();
-                $(this)
-                  .parent()
-                  .siblings()
-                  .removeAttr("style")
-                  .removeClass("over");
-                $(this).parent().addClass("over").css("border-color", color);
-                img.attr("src", "../images/temp/" + imgs[thisIdx]);
-              },
-            });
-        });
-      </script>
-    </footer>
-    <!--// footer -->
     </div>
   </body>
 </html>

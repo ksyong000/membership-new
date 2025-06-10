@@ -1,12 +1,20 @@
 @charset "UTF-8";
 .membership-root {
   padding: 0 20px;
+  margin-bottom: 48px;
+}
+
+.membership-root * {
+  letter-spacing: -0.3px;
 }
 
 .membership-root header h2 {
   font-weight: 700;
   font-size: 20px;
-  line-height: 58px;
+}
+
+.membership-root header h3.main-title {
+  margin-top: 18px;
 }
 
 .membership-root header h3 {
@@ -16,6 +24,7 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+  margin-top: 16px;
 }
 
 .membership-root .txt {
@@ -48,12 +57,14 @@
   line-height: 18px;
   color: var(--color-60);
   margin-bottom: 18px;
+  word-break: keep-all;
 }
 .membership-root .bottom-box .ps-btn {
   height: 54px;
   font-weight: 700;
   font-size: 16px;
   text-align: center;
+  line-height: 3.2rem;
 }
 .membership-root .bottom-box .ps-btn + .ps-btn {
   margin-top: 8px;
@@ -74,8 +85,12 @@
   font-weight: 600;
   font-size: 24px;
 }
+.unitePop .ps-bottom-layer-content {
+  max-height: 95vh;
+}
+
 .unitePop .ps-bottom-layer-content .inner {
-  padding: 20px 20px 59px;
+  padding: 20px 24px 20px;
 }
 
 .unitePop .benefit-list {
@@ -99,10 +114,11 @@
   flex: 1;
   font-weight: 500;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 24px;
   text-align: right;
   color: var(--color-70);
   word-break: keep-all;
+  text-align: left;
 }
 
 /* 회원정보확인 */
@@ -219,6 +235,9 @@
 .member-check .terms-wrap {
   margin-bottom: 24px;
 }
+.member-check .terms-wrap li + li {
+  margin-top: 10px;
+}
 .member-check
   .terms-wrap-box
   .ps-chkbox
@@ -320,7 +339,7 @@
   font-size: 14px;
   line-height: 22px;
   vertical-align: middle;
-  color: var(--color-50);
+  color: #555;
   position: relative;
 }
 .input-box.line
