@@ -15,7 +15,7 @@
 }
 
 .membership-root header h3.main-title {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 .membership-root header h3 {
@@ -119,7 +119,7 @@
 
 /* 회원정보확인 */
 .member-check header {
-  margin-bottom: 36px;
+  margin-bottom: 20px;
 }
 .member-check header h2 {
   font-size: 16px;
@@ -139,8 +139,8 @@
   font-size: 14px;
   line-height: 16px;
   margin-bottom: 18px;
-  padding-top: 22px;
-  color:#555555;
+  padding-top: 8px;
+  color:var(--color-70);
 }
 .member-check .info-box.not-user {
   margin-bottom: 42px;
@@ -149,7 +149,7 @@
 .member-check .info-box .main-txt {
   font-weight: 600;
   font-size: 18px;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
   line-height: 28px;
 }
 .member-check .info-box .main-txt strong {
