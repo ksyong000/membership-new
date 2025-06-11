@@ -429,3 +429,8 @@
   text-decoration-thickness: 1px;
   text-decoration-skip-ink: auto;
 }
+.unitePop .inner {
+    background: #fff;
+    padding: 24px 40px 24px!important;
+    flex: 0 0 100%;
+}
