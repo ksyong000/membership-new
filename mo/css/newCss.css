@@ -123,7 +123,7 @@
 
 /* 회원정보확인 */
 .member-check header {
-  margin-bottom: 26px;
+  margin-bottom: 20px;
 }
 .member-check header h2 {
   font-size: 16px;
@@ -133,7 +133,7 @@
   line-height: 38px;
 }
 .member-check .info-box {
-  margin-bottom: 58px;
+  margin-bottom: 24px;
 }
 .member-check.result .info-box {
   margin-bottom: 0;
