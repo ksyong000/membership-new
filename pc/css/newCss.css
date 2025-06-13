@@ -445,3 +445,12 @@
 .unitePop .modal.xsmall {
   width: 360px !important;
 }
+
+
+.ps-btn.closebt {
+    width: 32px;
+    height: 32px;
+    background: url(https://image.prospecs.com/front/images/renewal/icon_close_small_gr.svg) no-repeat center center / 100% 100%;
+    float: right;
+    margin-top: -40px;
+}
