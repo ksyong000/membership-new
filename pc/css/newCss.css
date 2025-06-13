@@ -434,3 +434,10 @@
     padding: 24px 40px 24px !important;
     flex: 0 0 100%;
 }
+
+.unitePop .inner .layer-txt p2 {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color-90);
+  font-weight: 650;
+}
