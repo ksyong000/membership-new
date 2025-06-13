@@ -441,3 +441,7 @@
   color: var(--color-90);
   font-weight: 650;
 }
+
+.unitePop .modal.small {
+  width: 360px !important;
+}
