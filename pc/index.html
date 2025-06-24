@@ -3633,5 +3633,22 @@
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"
     ></script>
+
+    <script>
+  const isLoggedIn = false; // 로그인 상태: true 또는 false
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const authBtn = document.getElementById('authBtn');
+
+    if (isLoggedIn) {
+      authBtn.textContent = '회원정보 확인하기';
+      authBtn.onclick = () => memberUnitePop('alert01');
+    } else {
+      authBtn.textContent = '온라인 회원 로그인';
+      authBtn.onclick = () => location.href = '/member/login';
+    }
+  });
+</script>
+
   </body>
 </html>
