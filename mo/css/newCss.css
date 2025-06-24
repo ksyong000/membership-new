@@ -425,3 +425,25 @@
   text-decoration-thickness: 1px;
   text-decoration-skip-ink: auto;
 }
+
+
+  .login-input--find {
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  .login-input--find button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+    padding: 0 4px;
+    text-decoration: underline;
+  }
+
+  .login-input--find button:hover {
+    color: #000;
+    text-decoration: none;
+  }
+
