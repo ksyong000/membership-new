@@ -35,7 +35,7 @@
 }
 .membership-root .ps-btn.arrow-icon {
   width: initial;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 12px;
   line-height: 1;
   display: inline-flex;
@@ -61,7 +61,7 @@
 }
 .membership-root .bottom-box .ps-btn {
   height: 54px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   text-align: center;
   line-height: 3.2rem;
@@ -291,7 +291,7 @@
 }
 
 .membership-root .btn-wrap .ps-btn {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   text-align: center;
 }
@@ -427,10 +427,14 @@
 }
 
 
+
   .login-input--find {
-    margin-top: 16px;
+    margin-top: 24px;
     text-align: center;
-  }
+    color: #555555;
+    font-size: 14px;
+    font-weight: 600;
+}
 
   .login-input--find button {
     background: none;
@@ -446,4 +450,3 @@
     color: #000;
     text-decoration: none;
   }
-
