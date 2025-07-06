@@ -140,7 +140,7 @@
   line-height: 16px;
   margin-bottom: 18px;
   padding-top: 8px;
-  color:var(--color-70);
+  color: var(--color-70);
 }
 .member-check .info-box.not-user {
   margin-bottom: 42px;
@@ -430,9 +430,9 @@
   text-decoration-skip-ink: auto;
 }
 .unitePop .inner {
-    background: #fff;
-    padding: 24px 40px 24px !important;
-    flex: 0 0 100%;
+  background: #fff;
+  padding: 24px 40px 24px !important;
+  flex: 0 0 100%;
 }
 
 .unitePop .inner .layer-txt p2 {
@@ -446,37 +446,209 @@
   width: 360px !important;
 }
 
-
 .ps-btn.closebt {
-    width: 32px;
-    height: 32px;
-    background: url(https://image.prospecs.com/front/images/renewal/icon_close_small_gr.svg) no-repeat center center / 100% 100%;
-    float: right;
-    margin-top: -40px;
+  width: 32px;
+  height: 32px;
+  background: url(https://image.prospecs.com/front/images/renewal/icon_close_small_gr.svg)
+    no-repeat center center / 100% 100%;
+  float: right;
+  margin-top: -40px;
 }
 
-
-  .login-input--find {
-    margin-top: 24px;
-    text-align: center;
-    color: #555555;
-    font-size: 14px;
-    font-weight: 600;
+.login-input--find {
+  margin-top: 24px;
+  text-align: center;
+  color: #555555;
+  font-size: 14px;
+  font-weight: 600;
 }
 
-  .login-input--find button {
-    background: none;
-    border: none;
-    font-size: 14px;
-    color: #555;
-    cursor: pointer;
-    padding: 0 4px;
-    text-decoration: underline;
-  }
+.login-input--find button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+  padding: 0 4px;
+  text-decoration: underline;
+}
 
-  .login-input--find button:hover {
-    color: #000;
-    text-decoration: none;
-  }
+.login-input--find button:hover {
+  color: #000;
+  text-decoration: none;
+}
 
+/* 회원혜택 */
+.benefit-root {
+  width: 640px;
+  margin: 0 auto 300px;
+}
+.benefit-root h4 {
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 18px;
+}
 
+.benefit-root h5 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 48px;
+}
+.benefit-root .membership-grade {
+  margin-top: 24px;
+}
+.benefit-root .membership-grade > li {
+  padding: 34px 21px;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #d8d8d8;
+}
+.benefit-root .membership-grade .friend .grade {
+  color: #006ec7;
+}
+.benefit-root .membership-grade .bronze .grade {
+  color: #c73c00;
+}
+.benefit-root .membership-grade .silver .grade {
+  color: #8e8e8e;
+}
+.benefit-root .membership-grade .gold .grade {
+  color: #a2845e;
+}
+
+.benefit-root .membership-grade > li:first-child {
+  border-top: 1px solid #d8d8d8;
+}
+.benefit-root .membership-grade li .grade p {
+  font-weight: 700;
+  font-size: 16px;
+}
+.benefit-root .membership-grade li .grade strong {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 24px;
+  margin-top: 16px;
+  display: inline-block;
+}
+.benefit-root .membership-grade li .grade-info {
+  margin-left: auto;
+  min-width: 171px;
+}
+.benefit-root table {
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+  margin-top: 12px;
+  margin-bottom: 76px;
+}
+.benefit-root table td {
+  height: 50px;
+  padding: 11px 10px 13px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  vertical-align: middle;
+}
+.benefit-root table td {
+  border-left: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+}
+.benefit-root table tr:first-child td:first-child {
+  border-left: none;
+}
+.benefit-root table.point-tbl tr:not(:first-child) td:first-child {
+  border-left: none;
+}
+.benefit-root table.point-tbl tr:last-child td:first-child {
+  border-left: 1px solid #d8d8d8;
+}
+.benefit-root table.point-info-tbl tr:not(:first-child) td:first-child {
+  border-left: none;
+}
+.benefit-root table.point-info-tbl {
+  margin-bottom: 14px;
+}
+.benefit-root .point-info {
+  margin-bottom: 28px;
+}
+.benefit-root .point-info li {
+  line-height: 15px !important;
+}
+.benefit-root .information {
+  margin-top: 80px;
+}
+.benefit-root .information .info-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.benefit-root .information .info-head strong {
+  font-weight: 700;
+  font-size: 17px;
+  color: #5a5a5a;
+}
+.benefit-root .information .info-head button {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+}
+.benefit-root .information .info-head button:before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: #444;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.benefit-root .information .info-head button:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: #444;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.3s ease-in;
+}
+.benefit-root .information .info-head button.active:after {
+  transform: translateY(-50%) rotate(-90deg);
+}
+
+.benefit-root .information ul {
+  margin-top: 24px;
+}
+.benefit-root .information ul li {
+  color: #767676;
+  font-size: 15px;
+}
+
+/* 리스트 dot 표시 */
+.benefit-root .list-dot li {
+  padding-left: 10px;
+  position: relative;
+  color: #555;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.benefit-root .list-dot li + li {
+  margin-top: 10px;
+}
+.benefit-root .list-dot li:before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  background: #555;
+}

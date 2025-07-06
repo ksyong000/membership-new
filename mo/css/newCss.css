@@ -144,7 +144,7 @@
   line-height: 16px;
   margin-bottom: 18px;
   padding-top: 8px;
-  color:var(--color-70);
+  color: var(--color-70);
 }
 .member-check .info-box.not-user {
   margin-bottom: 42px;
@@ -426,27 +426,241 @@
   text-decoration-skip-ink: auto;
 }
 
-
-
-  .login-input--find {
-    margin-top: 24px;
-    text-align: center;
-    color: #555555;
-    font-size: 14px;
-    font-weight: 600;
+.login-input--find {
+  margin-top: 24px;
+  text-align: center;
+  color: #555555;
+  font-size: 14px;
+  font-weight: 600;
 }
 
-  .login-input--find button {
-    background: none;
-    border: none;
-    font-size: 14px;
-    color: #555;
-    cursor: pointer;
-    padding: 0 4px;
-    text-decoration: underline;
-  }
+.login-input--find button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+  padding: 0 4px;
+  text-decoration: underline;
+}
 
-  .login-input--find button:hover {
-    color: #000;
-    text-decoration: none;
-  }
+.login-input--find button:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/* 회원혜택 */
+.benefit-root {
+  margin-bottom: 100px;
+}
+.benefit-root .ps-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+}
+.benefit-root .cc-tab {
+  margin-bottom: 50px;
+}
+.benefit-root .cc-tab li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 82.95px;
+}
+.benefit-root .cc-tab li a {
+  font-weight: 500;
+  font-size: 13px;
+  color: #222;
+}
+.benefit-root .cc-tab li.on:after {
+  height: 100%;
+}
+
+.benefit-root h4 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+.benefit-root h5 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.benefit-root p.sub-tit {
+  font-weight: 600;
+  color: #555;
+  margin-top: 16px;
+}
+.benefit-root .membership-grade {
+  margin-top: 24px;
+}
+.benefit-root .membership-grade > li {
+  padding: 24px 8px;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #d8d8d8;
+}
+.benefit-root .membership-grade .friend .grade {
+  color: #006ec7;
+}
+.benefit-root .membership-grade .bronze .grade {
+  color: #c73c00;
+}
+.benefit-root .membership-grade .silver .grade {
+  color: #8e8e8e;
+}
+.benefit-root .membership-grade .gold .grade {
+  color: #a2845e;
+}
+
+.benefit-root .membership-grade > li:first-child {
+  border-top: 1px solid #d8d8d8;
+}
+.benefit-root .membership-grade li .grade p {
+  font-weight: 700;
+  font-size: 14px;
+}
+.benefit-root .membership-grade li .grade strong {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 24px;
+  margin-bottom: 22px;
+  display: inline-block;
+}
+.benefit-root .membership-grade li .grade-info {
+  margin-left: auto;
+  min-width: 137px;
+}
+.benefit-root table {
+  width: 100%;
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+  margin-top: 12px;
+  margin-bottom: 50px;
+}
+.benefit-root table td {
+  height: 50px;
+  padding: 14px 10px 13px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+  vertical-align: middle;
+  word-break: keep-all;
+}
+.benefit-root table th {
+  background: #f5f5f5;
+  font-weight: 600;
+  font-size: 14px;
+  height: 50px;
+  padding: 14px 10px 13px;
+  letter-spacing: -1px;
+  color: #555;
+}
+.benefit-root table th + th {
+  border-left: 1px solid #d8d8d8;
+}
+.benefit-root table td {
+  border-bottom: 1px solid #d8d8d8;
+}
+.benefit-root table td + td {
+  border-left: 1px solid #d8d8d8;
+}
+.benefit-root table tr:first-child td:first-child {
+  border-left: none;
+}
+.benefit-root table.point-info-tbl {
+  margin-bottom: 14px;
+}
+.benefit-root table.point-info-tbl td + td {
+  text-align: left;
+  padding-left: 16px;
+}
+.benefit-root .point-info {
+  margin-bottom: 28px;
+}
+.benefit-root .table-info {
+  font-size: 13px;
+  color: #555;
+  font-weight: 500;
+}
+.benefit-root .point-info li {
+  line-height: 20px !important;
+}
+.benefit-root .information {
+  margin-top: 50px;
+}
+.benefit-root .information .info-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.benefit-root .information .info-head strong {
+  font-weight: 700;
+  font-size: 17px;
+  color: #5a5a5a;
+}
+.benefit-root .information .info-head button {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+}
+.benefit-root .information .info-head button:before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: #444;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.benefit-root .information .info-head button:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: #444;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.3s ease-in;
+}
+.benefit-root .information .info-head button.active:after {
+  transform: translateY(-50%) rotate(-90deg);
+}
+
+.benefit-root .information ul {
+  margin-top: 24px;
+}
+.benefit-root .information ul li {
+  color: #767676;
+  font-size: 13px;
+}
+
+/* 리스트 dot 표시 */
+.benefit-root .list-dot li {
+  padding-left: 10px;
+  position: relative;
+  color: #555;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  word-break: keep-all;
+}
+
+.benefit-root .list-dot li:before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  background: #555;
+}
