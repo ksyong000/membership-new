@@ -236,6 +236,14 @@
 .member-check .terms-wrap {
   margin-bottom: 24px;
 }
+.member-check .terms-wrap li {
+  flex-wrap: wrap;
+}
+.member-check .terms-wrap li .view-text {
+  font-weight: 600;
+  color: #1d1d1d;
+  border-color: #1d1d1d;
+}
 .member-check .terms-wrap li + li {
   margin-top: 10px;
 }
@@ -283,6 +291,50 @@
   text-decoration-skip-ink: auto;
   border-bottom: none;
   color: var(--color-90);
+}
+.member-check .terms-con {
+  overflow: auto;
+  flex: 0 0 100%;
+  height: 6.25rem;
+  margin-top: 0.625rem;
+  padding: 0.625rem;
+  border: 1px solid #e3e3e3;
+  display: none;
+}
+.member-check .terms-con::-webkit-scrollbar {
+  width: 5px;
+}
+.member-check .terms-con::-webkit-scrollbar-thumb {
+  background: #999;
+}
+.member-check .terms-con .agree_in {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 300;
+  word-break: normal;
+}
+.member-check .terms-con .agree_in h4 {
+  font-weight: 500;
+}
+.member-check .terms-con .agree_in * {
+  color: #666;
+}
+.member-check .terms-con .agree_in dl {
+  padding-bottom: 15px;
+}
+.member-check .terms-con .agree_in dl dt {
+  font-weight: 500;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+.member-check .terms-con .agree_in dl dd {
+  padding-bottom: 5px;
+  font-size: 13px;
+  margin-left: 0;
+  word-break: normal;
+}
+.member-check .terms-con .agree_in ul {
+  padding-left: 15px;
 }
 .btn-wrap {
   display: flex;
