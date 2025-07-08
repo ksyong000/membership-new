@@ -806,8 +806,3 @@
 .membershipGateRoot .gateInner .gate-btns button:hover * {
   color: #1d1d1d;
 }
-
-/* 헤더숨김 */
-#psWrap header.ps-header {
-  display: none !important;
-}
