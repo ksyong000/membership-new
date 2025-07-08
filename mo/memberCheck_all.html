@@ -812,13 +812,7 @@
       <main>
         <div class="ps-inner">
           <div class="membership-root member-check">
-            <header>
-              <h2>온 · 오프라인을 하나로</h2>
-              <h3>
-                <span>PRO-SPECS</span>
-                <span>MEMBERSHIP</span>
-              </h3>
-            </header>
+
 
             <div class="info-box">
               <p class="main-txt">
@@ -890,7 +884,7 @@
                     <a href="javascript:void(0)" class="ps-btn view-text"
                       >약관보기</a
                     >
-                    <div class="terms-con">
+					                     <div class="terms-con">
                       <div class="agree-wrp">
                         <div class="agree_in">
                           <h4>[프로-스펙스이용약관]</h4>
@@ -1851,6 +1845,7 @@
                         </div>
                       </div>
                     </div>
+					  
                   </li>
                   <li class="flex items-center justify-between">
                     <div class="ps-chkbox ps-terms-chk">
@@ -1918,7 +1913,7 @@
               $("#CHK_ALL").prop("checked", total === checked);
             }
           );
-          //약관동의
+			          //약관동의
           $(".terms-list .view-text").on("click", function () {
             if ($(this).next(".terms-con").css("display") == "none") {
               $(this).text("약관닫기").next(".terms-con").slideDown();
