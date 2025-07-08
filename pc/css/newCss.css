@@ -544,6 +544,7 @@ font-weight: 500;
 
 
 
+
 /* 회원혜택 */
 .benefit-root {
   width: 640px;
@@ -552,7 +553,7 @@ font-weight: 500;
 .benefit-root h4 {
   font-weight: 600;
   font-size: 26px;
-  margin-bottom: 18px;
+  margin: 72px 0 18px;
 }
 
 .benefit-root h5 {
@@ -592,7 +593,7 @@ font-weight: 500;
 .benefit-root .membership-grade li .grade strong {
   font-weight: 700;
   font-size: 40px;
-  line-height: 24px;
+  line-height: 150%;
   margin-top: 16px;
   display: inline-block;
 }
@@ -603,8 +604,7 @@ font-weight: 500;
 .benefit-root table {
   border-top: 1px solid #d8d8d8;
   border-bottom: 1px solid #d8d8d8;
-  margin-top: 12px;
-  margin-bottom: 76px;
+  margin-bottom: 16px;
 }
 .benefit-root table td {
   height: 50px;
@@ -638,7 +638,7 @@ font-weight: 500;
   margin-bottom: 28px;
 }
 .benefit-root .point-info li {
-  line-height: 15px !important;
+  line-height: 150%; !important;
 }
 .benefit-root .information {
   margin-top: 80px;
@@ -702,7 +702,7 @@ font-weight: 500;
   color: #555;
   font-size: 16px;
   font-weight: 500;
-  line-height: 22px;
+  line-height: 150%;
 }
 .benefit-root .list-dot li + li {
   margin-top: 10px;
@@ -719,5 +719,17 @@ font-weight: 500;
   background: #555;
 }
 
+.table-info
+{  color: #8E8E8E;
+  font-size: 14px;
+  font-weight: 500;
+	line-height: 150%;	
+}
 
-
+.table-sub
+{  color: #1d1d1d;
+  font-size: 16px;
+  font-weight: 500;
+	line-height: 150%;
+	margin-top: 6px;
+}
