@@ -110,15 +110,43 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
-    <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
-    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/custom.css" />
-    <link rel="stylesheet" type="text/css" href="./css/mediaQuary.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/fonts.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/custom.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/mediaQuary.css"
+    />
 
-    <link rel="stylesheet" type="text/css" href="./css/ps-new.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/ps-new.css"
+    />
 
-    <link rel="stylesheet" type="text/css" href="./css/jquery-ui.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/jquery-ui.min.css"
+    />
     <script
       type="text/javascript"
       src="https://image.prospecs.com/front/ux/js/lib/jquery.lib.js?ver=20200106_001"
@@ -2420,6 +2448,7 @@
       <main>
         <div class="ps-inner">
           <div class="membership-root member-check">
+<!--
             <header>
               <h2>온 · 오프라인을 하나로</h2>
               <h3>
@@ -2427,6 +2456,7 @@
                 <span>MEMBERSHIP</span>
               </h3>
             </header>
+-->
 
             <div class="info-box">
               <p class="main-txt">
@@ -2448,10 +2478,7 @@
                 </dd>
               </dl>
             </div>
-            <p class="warning-text">
-              통합회원 등록 이후에는 원상복구가 불가합니다<br />통합회원 등록
-              이후 회원 탈퇴 시 온라인, 오프라인 회원 정보 모두 탈퇴 처리됩니다
-            </p>
+
 
             <div class="terms-wrap-box">
               <div class="terms-wrap">
@@ -2485,7 +2512,7 @@
                     <a href="javascript:void(0)" class="ps-btn view-text"
                       >약관보기</a
                     >
-                    <div class="terms-con">
+					                    <div class="terms-con">
                       <div class="agree-wrp">
                         <div class="agree_in">
                           <h4>[프로-스펙스이용약관]</h4>
@@ -3480,6 +3507,10 @@
                 </ul>
               </div>
               <div class="btn-wrap">
+				              <p class="warning-text">
+              통합회원 등록 이후에는 원상복구가 불가합니다<br />통합회원 등록
+              이후 회원 탈퇴 시 온라인, 오프라인 회원 정보 모두 탈퇴 처리됩니다
+            </p>
                 <a href="javascript:void(0);" class="ps-btn type2"
                   >회원정보 통합하기</a
                 >
@@ -3512,14 +3543,14 @@
                 $("#CHK_ALL").prop("checked", total === checked);
               }
             );
-            //약관동의
-            $(".terms-list .view-text").on("click", function () {
-              if ($(this).next(".terms-con").css("display") == "none") {
-                $(this).text("약관닫기").next(".terms-con").slideDown();
-              } else {
-                $(this).text("약관보기").next(".terms-con").slideUp();
-              }
-            });
+			            //약관동의
+          $(".terms-list .view-text").on("click", function () {
+            if ($(this).next(".terms-con").css("display") == "none") {
+              $(this).text("약관닫기").next(".terms-con").slideDown();
+            } else {
+              $(this).text("약관보기").next(".terms-con").slideUp();
+            }
+          });
           });
         </script>
       </main>

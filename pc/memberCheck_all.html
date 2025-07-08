@@ -2421,13 +2421,15 @@
       <main>
         <div class="ps-inner">
           <div class="membership-root member-check">
-            <header>
+            <!--<header>
+
               <h2>온 · 오프라인을 하나로</h2>
               <h3>
                 <span>PRO-SPECS</span>
                 <span>MEMBERSHIP</span>
               </h3>
-            </header>
+
+            </header>-->
 
             <div class="info-box">
               <p class="main-txt">
@@ -2435,8 +2437,7 @@
                 프로스펙스닷컴 / 프로-스펙스 오프라인 멤버십 모두 가입하신
                 회원입니다.
               </p>
-              <span class="guide-txt"
-                >아래의 개인정보를 확인하시고,<br />
+              <span class="guide-txt">아래의 개인정보를 확인하시고,<br />
                 이상이 없으면 약관 확인 후 통합 회원 등록을 진행해주세요</span
               >
             </div>
@@ -2499,7 +2500,7 @@
                     <a href="javascript:void(0)" class="ps-btn view-text"
                       >약관보기</a
                     >
-                    <div class="terms-con">
+					                      <div class="terms-con">
                       <div class="agree-wrp">
                         <div class="agree_in">
                           <h4>[프로-스펙스이용약관]</h4>
@@ -3460,6 +3461,7 @@
                         </div>
                       </div>
                     </div>
+					  
                   </li>
                   <li class="flex items-center justify-between">
                     <div class="ps-chkbox ps-terms-chk">
@@ -3526,14 +3528,14 @@
                 $("#CHK_ALL").prop("checked", total === checked);
               }
             );
-            //약관동의
-            $(".terms-list .view-text").on("click", function () {
-              if ($(this).next(".terms-con").css("display") == "none") {
-                $(this).text("약관닫기").next(".terms-con").slideDown();
-              } else {
-                $(this).text("약관보기").next(".terms-con").slideUp();
-              }
-            });
+			            //약관동의
+          $(".terms-list .view-text").on("click", function () {
+            if ($(this).next(".terms-con").css("display") == "none") {
+              $(this).text("약관닫기").next(".terms-con").slideDown();
+            } else {
+              $(this).text("약관보기").next(".terms-con").slideUp();
+            }
+          });
           });
         </script>
       </main>
