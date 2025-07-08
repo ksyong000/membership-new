@@ -733,3 +733,16 @@ font-weight: 500;
 	line-height: 150%;
 	margin-top: 6px;
 }
+
+/* 멤버쉽 게이트 */
+.membershipGateRoot{width:100vw;height:100vh;background:#1d1d1d url(../images/membership_bg.svg) no-repeat;background-size:cover;background-position:center top;display:flex;align-items:center;justify-content:center;position:fixed;top:0;left:0;}
+.membershipGateRoot .gateInner{width:672px;margin-top:50px}
+.membershipGateRoot .gateInner .gate-head img{margin:auto;}
+.membershipGateRoot .gateInner .gate-head p{font-size:19px;font-weight:600;color:#f8f8f8;margin-top:24px;text-align:center}
+
+.membershipGateRoot .gateInner .gate-btns{display:flex;gap:32px;margin-top:72px;}
+.membershipGateRoot .gateInner .gate-btns button{width:320px;height:160px;border:1px solid #8e8e8e;transition:all 0.2s ease-in;}
+.membershipGateRoot .gateInner .gate-btns button strong{font-size:29px;font-weight:600;color:#f8f8f8;line-height:22px;letter-spacing:-0.5px;}
+.membershipGateRoot .gateInner .gate-btns button p{font-size:17px;font-weight:500;color:#f8f8f8;margin-top:20px;line-height:22px;letter-spacing:-0.5px;}
+.membershipGateRoot .gateInner .gate-btns button:hover{background:#fff;}
+.membershipGateRoot .gateInner .gate-btns button:hover *{color:#1d1d1d;}
