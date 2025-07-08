@@ -11,16 +11,22 @@
 .membership-root header h2 {
   font-weight: 700;
   font-size: 20px;
+margin-bottom:8px;
 }
 
-.membership-root header h3.main-title {
+.membership-root header .main-title {
   margin-top: 8px;
+	padding-bottom: 24px;
+}
+
+.membership-root header .main-title img{
+width: 300px;
 }
 
 .membership-root header h3 {
   font-weight: 800;
   font-size: 48px;
-  line-height: 58px;
+  line-height: 150%;
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
@@ -28,16 +34,16 @@
 }
 
 .membership-root .txt {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
+/*  font-weight: 400;*/
+  font-size: 20px;
+  line-height: 150%;
   margin-bottom: 28px;
 }
 .membership-root .ps-btn.arrow-icon {
   width: initial;
   font-weight: 600;
   font-size: 12px;
-  line-height: 1;
+  line-height: 150%;
   display: inline-flex;
   align-items: center;
   gap: 3px;
@@ -54,7 +60,7 @@
 .bottom-box .txt {
   font-weight: 500;
   font-size: 12px;
-  line-height: 18px;
+  line-height: 150%;
   color: var(--color-60);
   margin-bottom: 18px;
   word-break: keep-all;
@@ -64,7 +70,7 @@
   font-weight: 600;
   font-size: 16px;
   text-align: center;
-  line-height: 3.2rem;
+ 
 }
 .membership-root .bottom-box .ps-btn + .ps-btn {
   margin-top: 8px;
@@ -79,7 +85,7 @@
 .unitePop .layer-head h4 {
   font-weight: 600;
   font-size: 15px;
-  line-height: 32px;
+  line-height: 150%;
 }
 .unitePop .layer-head h3 {
   font-weight: 600;
@@ -107,14 +113,14 @@
 .unitePop .benefit-list dt {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 150%;
   width: 114px;
 }
 .unitePop .benefit-list dd {
   flex: 1;
   font-weight: 500;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 150%;
   text-align: right;
   color: var(--color-70);
   word-break: keep-all;
@@ -130,31 +136,31 @@
 }
 .member-check header h3 {
   font-size: 32px;
-  line-height: 38px;
+  line-height: 150%;
 }
 .member-check .info-box {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 .member-check.result .info-box {
-  margin-bottom: 0;
+  margin-bottom: 49;
 }
 .member-check .info-box .result {
   font-weight: 600;
   font-size: 14px;
-  line-height: 16px;
-  margin-bottom: 18px;
+  line-height: 150%;
+  margin-bottom: 16px;
   padding-top: 8px;
-  color: var(--color-70);
+  color:var(--color-70);
 }
 .member-check .info-box.not-user {
   margin-bottom: 42px;
 }
 
 .member-check .info-box .main-txt {
-  font-weight: 600;
-  font-size: 18px;
-  margin-bottom: 24px;
-  line-height: 28px;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 16px;
+  line-height: 150%;
 }
 .member-check .info-box .main-txt strong {
   font-weight: 800;
@@ -165,14 +171,14 @@
 .member-check .info-box .color2 {
   font-weight: 800;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 150%;
   color: #006ec7;
 }
 .member-check .info-box .guide-txt {
   display: inline-block;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
   color: var(--color-70);
 }
 
@@ -183,11 +189,11 @@
   margin-bottom: 42px;
 }
 .member-check .info-list {
-  padding-bottom: 24px;
+  padding-bottom: 20px;
   border-bottom: 1px solid var(--color-30);
 }
 .member-check .info-list + .info-list {
-  margin-top: 24px;
+  margin-top: 20px;
 }
 
 .member-check .info-list.id .data-label {
@@ -195,12 +201,12 @@
 }
 
 .member-check .info-list dt {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 12px;
-  line-height: 12px;
+  line-height: 150%;
   vertical-align: middle;
   text-transform: uppercase;
-  color: var(--color-60);
+  color: var(--color-50);
   margin-bottom: 12px;
 }
 .member-check .info-list dd {
@@ -212,38 +218,42 @@
   margin-top: 10px;
 }
 .member-check .data-label {
-  width: 39px;
+  width: 42px;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 16px;
+  font-size: 16px;
+  line-height: 150%;
 }
 .member-check .data-value {
   white-space: nowrap;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 150%;
   color: var(--color-70);
 }
 
 .member-check .warning-text {
   font-weight: 500;
   font-size: 12px;
-  line-height: 18px;
-  color: #ca3a59;
-  margin-bottom: 18px;
+  line-height: 150%;
+  color: #BF1238;
+  margin-bottom: 16px;
 }
 
 .member-check .terms-wrap {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
+
 .member-check .terms-wrap li {
   flex-wrap: wrap;
 }
 .member-check .terms-wrap li .view-text {
-  font-weight: 600;
-  color: #1d1d1d;
-  border-color: #1d1d1d;
+  font-weight: 500;
+  color: var(--color-50);
+  border-color: var(--color-50);
 }
+
+
+
 .member-check .terms-wrap li + li {
   margin-top: 10px;
 }
@@ -258,30 +268,28 @@
 
 .member-check .terms-wrap-box .ps-chkbox.all-chk {
   width: 100%;
-  border-bottom: 1px solid var(--color-30);
-  padding-bottom: 18px;
-  margin-bottom: 20px;
+  padding-bottom: 10px;
 }
 .member-check .terms-wrap-box .ps-chkbox.all-chk .text {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
 }
 .member-check .terms-wrap-box .ps-chkbox:not(.all-chk) .text {
   font-size: 14px;
   font-weight: 500;
-  line-height: 22px;
+  line-height: 150%;
   color: var(--color-70);
 }
 .member-check .terms-wrap-box .ps-chkbox:not(.all-chk) .text .color1 {
   font-size: 14px;
   font-weight: 500;
-  line-height: 22px;
-  color: #ca3a59;
+  line-height: 150%;
+  color: #BF1238;
 }
 .membership-root .member-check .ps-btn.view-text {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 150%;
   text-align: center;
   vertical-align: middle;
   text-decoration: underline;
@@ -290,8 +298,9 @@
   text-decoration-thickness: 1px;
   text-decoration-skip-ink: auto;
   border-bottom: none;
-  color: var(--color-90);
+  color: var(--color-50);
 }
+
 .member-check .terms-con {
   overflow: auto;
   flex: 0 0 100%;
@@ -336,10 +345,12 @@
 .member-check .terms-con .agree_in ul {
   padding-left: 15px;
 }
+
 .btn-wrap {
   display: flex;
   flex-direction: column;
   gap: 8px;
+margin-top:8px;
 }
 
 .membership-root .btn-wrap .ps-btn {
@@ -370,8 +381,8 @@
   min-width: 55px;
   margin: 0;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 150%;
 }
 .input-box.line .input-area .ps-input {
   flex: 1;
@@ -389,8 +400,8 @@
 }
 .input-box.line .ps-chkbox .text {
   font-weight: 600;
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 150%;
   vertical-align: middle;
   color: #555;
   position: relative;
@@ -431,7 +442,7 @@
   flex-direction: column;
   gap: 24px;
   padding: 30px 0;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 .point-coupone dl {
   display: flex;
@@ -441,13 +452,13 @@
   min-width: 95px;
   font-weight: 600;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 150%;
 }
 
 .point-coupone dl dd {
   font-weight: 700;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 150%;
   text-align: right;
   text-decoration: underline;
   text-decoration-style: solid;
@@ -461,16 +472,16 @@
 }
 .guide-box p {
   font-weight: 500;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 14px;
+  line-height: 150%;
   color: var(--color-60);
   margin-bottom: 10px;
 }
 
 .guide-box a {
   font-weight: 600;
-  font-size: 12px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 150%;
   text-decoration: underline;
   text-decoration-style: solid;
   text-underline-offset: 3px;
@@ -478,28 +489,32 @@
   text-decoration-skip-ink: auto;
 }
 
-.login-input--find {
-  margin-top: 24px;
-  text-align: center;
-  color: #555555;
-  font-size: 14px;
-  font-weight: 600;
+
+
+  .login-input--find {
+    margin-top: 24px;
+    text-align: center;
+    color: #555555;
+    font-size: 14px;
+    font-weight: 600;
 }
 
-.login-input--find button {
-  background: none;
-  border: none;
-  font-size: 14px;
-  color: #555;
-  cursor: pointer;
-  padding: 0 4px;
-  text-decoration: underline;
-}
+  .login-input--find button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+    padding: 0 4px;
+    text-decoration: underline;
+  }
 
-.login-input--find button:hover {
-  color: #000;
-  text-decoration: none;
-}
+  .login-input--find button:hover {
+    color: #555;
+    text-decoration: none;
+  }
+
+
 
 /* 회원혜택 */
 .benefit-root {
